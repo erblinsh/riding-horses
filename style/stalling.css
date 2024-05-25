@@ -1,0 +1,303 @@
+:root {
+    --body-bg-color: #eee;
+    --font-color: #232558;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #777;
+}
+
+.stalling {
+    margin-top: 140px;
+    padding: 50px 200px;
+}
+
+.stalling-header {
+    text-align: center;
+}
+
+.the-best-surroundings {
+    display: flex;
+    padding: 100px 0;
+    margin-top: 100px;
+}
+
+.the-best-surroundings-left {
+    padding-right: 50px;
+    width: 400px;
+    min-width: 400px;
+}
+
+.the-best-surroundings h2 {
+    font-size: 41px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.the-best-surroundings p {
+    font-size: 18px;
+}
+
+#in-addition {
+    margin-bottom: 50px;
+}
+
+.the-best-surroundings-left a {
+    background-color: #232558;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 23px;
+    font-size: 15px;
+    border-radius: 25px;
+    box-shadow: 0 8px 10px #2222222c;
+}
+
+.the-best-surroundings-right img {
+    width: 535px;
+}
+
+.prices-for-housing {
+    background: linear-gradient(135deg, #8585a3 0%,#272759 100%);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 200px;
+}
+
+.prices-for-housing h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.prices-for-housing p {
+    color: #fff
+}
+
+.box-rentals {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px 0;
+    margin: 80px 0;
+}
+
+.box-rentals h2 {
+    margin: 0;
+}
+
+.extra-services {
+    margin: 0 70px;
+    position: relative;
+}
+
+.extra-services::after {
+    width: 100%;
+    opacity: 1;
+    height: 1px;
+    left: 0;
+    opacity: 0.3;
+    bottom: -25px;
+    background-color: var(--font-color);
+    position: absolute;
+}
+
+#extra-services-title::after {
+    content: "";
+    width: calc(100% - 250px);
+    opacity: 0.7;
+    height: 1px;
+    top: 3px;
+    right: 10px;
+    background-color: var(--font-color);
+    position: absolute;
+}
+
+.extra-services h4 {
+    font-size: 14px;
+    padding-right: 45px;
+}
+
+.extra-services-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px 10px;
+}
+
+.want-to-have-your-horse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 0;
+}
+
+.want-to-have-your-horse p {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.want-to-have-your-horse a {
+    padding: 17px 20px;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #cc3333;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px #2222222c;
+}
+
+.terms-and-conditions-for-housing {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 200px;
+    box-shadow: 0 5px 5px #1111112d;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.terms-and-conditions-for-housing h2 {
+    font-size: 40px;
+    padding-right: 50px;
+}
+
+.terms-and-conditions-for-housing p {
+    color: #0b0232;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.terms-and-conditions-for-housing p span {
+    margin-right: 15px;
+}
+
+
+.do-you-need-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 400px;
+}
+
+.do-you-need-help h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.do-you-need-help a {
+    background-color: #232558;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    box-shadow: 0 8px 10px #2222222c;
+}
+
+@media only screen and (max-width: 1300px) {
+    .stalling {
+        padding: 50px 100px;
+    }
+
+    .the-best-surroundings-right img {
+        width: 425px;
+    }
+
+    .prices-for-housing {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .stalling {
+        padding: 50px 100px;
+    }
+
+    .the-best-surroundings-left {
+        padding-right: 30px;
+        width: 320px;
+        min-width: 320px;
+    }
+
+    .the-best-surroundings-right img {
+        width: 300px;
+    }
+
+    .prices-for-housing {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .extra-services {
+        margin-right: 0;
+    }
+    
+    #extra-services-title::after {
+        content: "";
+        width: calc(100% - 170px);
+        opacity: 0.3;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .stalling {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+   
+    .the-best-surroundings {
+        flex-direction: column;
+    }
+
+    .the-best-surroundings-left {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .the-best-surroundings-right img {
+        width: 100%;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+
+    .prices-for-housing {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .box-rentals {
+        flex-direction: column;
+    }
+
+    .box-rental {
+        margin-top: 50px;
+    }
+
+
+    
+    .extra-services {
+        margin: 0;
+    }
+
+    #extra-services-title {
+        margin-bottom: 55px;
+    }
+
+    #extra-services-title::after {
+        width: 100%;
+        opacity: 0.38;
+        top: 60px;
+        left: 0;
+        right: 0;
+    }
+
+    .extra-services-cards {
+        grid-template-columns: 1fr;
+        gap: 10px 0;
+    }
+    
+    .terms-and-conditions-for-housing {
+        padding: 50px 30px;
+    }
+}

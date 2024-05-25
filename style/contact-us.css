@@ -1,0 +1,133 @@
+:root {
+    --body-bg-color: #eee;
+    --font-color: #232558;
+}
+
+/* Used more than 1 time */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 53px;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* */
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+    padding: 160px 100px;
+}
+
+.contact-us-left {
+    flex: 0.5;
+}
+
+.contact-us-left h1 {
+    font-size: 51px;
+}
+
+.contact-us-left-list {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-us-left-list li {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    color: #777;
+}
+
+.contact-us-left-list li span {
+    padding-bottom: 3px;
+}
+
+.contact-us-left-list a {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.contact-us-right {
+    flex: 0.5;
+    margin-top: 127px;
+}
+
+.contact-us-right form {
+    width: 340px;
+    padding-left: 10px;
+}
+
+.contact-us-right-field {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.contact-us-right-field label {
+    color: #777;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-us-right-field input, .contact-us-right-field textarea {
+    width: 100%;
+    border: 0;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.contact-us-right-field input {
+    height: 24px;
+}
+
+.contact-us-right-field select {
+    border: 0;
+    height: 28px;
+    width: 65%;
+}
+
+.contact-us-right-field select option {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-us-right-btn {
+    background-color: #232558;
+    color: #fff;
+    margin-top: 20px;
+    padding: 14px 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact-us-right form {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-us {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .contact-us-right form {
+        margin-left: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .contact-us {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contact-us-right form {
+        width: 250px;
+    }
+}

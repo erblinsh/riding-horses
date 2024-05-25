@@ -1,0 +1,698 @@
+:root {
+    --body-bg-color: #eee;
+    --font-color: #232558;
+}
+
+/* Used more than 1 time */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 53px;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.see-more-btn {
+    padding: 15px 25px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #cc3333;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px #2222222c;
+}
+/* */
+
+
+/* Home Header */
+
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 93px;
+    margin-top: 135px;
+}
+
+.home-header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 500px;
+    line-height: 1.1;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.home-header-left h1 {
+    font-size: 55px;
+    margin-bottom: 0;
+}
+
+.home-header-left p {
+    color: #777;
+    line-height: 1.4;
+    font-size: 18px;
+    /* flex: 0.5; */
+}
+
+.home-header-left p:last-child {
+    margin: 0;
+}
+
+.home-header-right img {
+    width: 650px;
+    border-radius: 6px;
+
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+
+
+/* Part Of Vmse */
+.part-of-vmse {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    margin-top: 325px;
+    background: linear-gradient(135deg, #8585a3 0%, #333366 100%);
+    padding: 90px 80px 50px 95px;
+}
+
+.part-of-vmse-left img {
+    width: 610px;
+    margin-top: -150px;
+    box-shadow: 0 5px 10px #11111141;
+    border-radius: 5px;
+}
+
+.part-of-vmse-right {
+    color: #fff;
+    width: 450px;
+    padding-left: 70px;
+}
+
+.part-of-vmse-right h1 {
+    margin: 0;
+}
+
+.part-of-vmse-right p {
+    font-size: 19px;
+    opacity: 0.9;
+}
+
+#dont-worry-paragraph {
+    margin-bottom: 50px;
+}
+
+.part-of-vmse-right a {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 23px;
+    cursor: pointer;
+    transition: all ease 0.25s;
+}
+
+.part-of-vmse-right a:hover {
+    background-color: var(--body-bg-color);
+    color: var(--font-color);
+    transition: all ease 0.25s;
+}
+
+/* Benefits */
+
+.benefits {
+    padding: 250px 200px;
+}
+
+.benefits-description {
+    width: 470px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.benefits-description p {
+    font-size: 18px;
+    margin: 7px 0;
+    color: #777;
+}
+
+.benefits-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.benefits-cards .card-1 {
+    background: linear-gradient(#11111173,#11111173), url('../assets/first-card-bg-img.jpg');
+}
+.benefits-cards .card-2 {
+    background: linear-gradient(#11111173,#11111173), url('../assets/second-card-bg-img.jpg');
+}
+.benefits-cards .card-3 {
+    background: linear-gradient(#11111173,#11111173), url('../assets/third-card-bg-img.jpg');
+}
+.benefits-cards .card-4 {
+    background: linear-gradient(#11111173,#11111173), url('../assets/fourth-card-bg-img.jpg');
+}
+
+.benefits-cards .card {
+    width: 400px;
+    height: 300px;
+    padding: 23px 40px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+
+    margin: 15px;
+
+}
+
+.benefit-card-description {
+    width: 100%;
+    height: 170px;
+    padding: 65px 12px;
+    color: #fff;
+}
+
+.benefit-card-description h3 {
+    font-size: 26px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.benefit-card-description p {
+    margin-top: 7px;
+    margin-bottom: 33px;
+}
+
+.benefit-card-description a {
+    padding: 15px;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #ff675b;
+}
+
+.benefit-card-description a:hover {
+    background-color: #ff675b;
+    transition: all ease 0.2s;
+}
+
+
+/* Take Your Horse */
+
+.take-your-horse {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #cd4546 0%,#343366 100%);
+    height: 500px;
+    color: #fff;
+    padding: 90px 80px 30px 80px;
+}
+
+.take-your-horse-left {
+    width: 420px;
+}
+
+.take-your-horse-left p {
+    font-size: 19px;
+}
+
+.take-your-horse-left p:nth-child(3) {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.take-your-horse-left a {
+    padding: 15px;
+    border-radius: 25px;
+    color: #111;
+    background-color: #fff;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.take-your-horse-left a:hover {
+    opacity: 1;
+}
+
+.take-your-horse-right img {
+    width: 620px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: -140px;
+    
+    box-shadow: 0 5px 10px #11111141;
+}
+
+/* Events And Stop Left */
+
+.events-and-stop {
+    display: flex;
+    padding: 280px 150px;
+}
+
+.events-and-stop-left img{
+    width: 540px;
+    border-radius: 8px;
+}
+
+.events-and-stop-right {
+    width: 500px;
+    margin-left: 35px;
+}
+
+.events-and-stop-right h1 {
+    margin-top: 0;
+}
+
+.events-and-stop-right p {
+    font-size: 19px;
+    color: #777;
+}
+
+.events-and-stop-links {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+
+.events-and-stop-links .see-more-btn{
+    margin-right: 30px;
+}
+
+.events-and-stop-links a:hover {
+    opacity: 0.8;
+    transition: all ease 0.2s;
+}
+
+/* Teachers */
+
+.teachers {
+    padding: 0 200px;
+}
+
+.teachers h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.teachers p {
+    color: #777;
+}
+
+.teachers-cards {
+    display: flex;
+    margin-top: 60px;
+}
+
+.teachers-card {
+    width: 350px;
+    padding: 10px;
+}
+
+.teachers-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+
+/* Facilities */
+.facilities {
+    padding: 50px 180px;
+    box-shadow: 0 5px 5px #1111112d;
+}
+
+.facilities-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.facility {
+    width: 535px;
+}
+
+.facility h3 {
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.facility p {
+    color: #777
+}
+
+.facilities-footer {
+    display: flex;
+    justify-content: center;
+    padding: 85px 0 110px 0;
+}
+
+/* Do ou need help */
+
+.do-you-need-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 400px;
+}
+
+.do-you-need-help h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.do-you-need-help a {
+ background-color: #232558;
+ color: #fff;
+ text-decoration: none;
+ padding: 15px 25px;
+ border-radius: 25px;
+ box-shadow: 0 8px 10px #2222222c;
+}
+
+@media only screen and (max-width: 1300px) {
+    .home-header-left {
+        padding: 100px 0 0 80px;
+        width: 370px;
+    }
+
+    .home-header-right img {
+        width: 445px;
+    }
+    
+    .part-of-vmse-left-img {
+        width: 430px !important;
+        margin-top: -350px !important;
+    }
+
+    .benefits {
+        padding: 250px 100px;
+    }
+
+    .benefits-cards .card {
+        width: 320px;
+    }
+
+    .take-your-horse {
+        height: 450px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .take-your-horse-left h1 {
+        font-size: 43px;
+    }
+
+    .take-your-horse-left p {
+        font-size: 18px;
+    }
+
+    .take-your-horse-right img {
+        width: 500px;
+    }
+
+    .events-and-stop {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .events-and-stop-left img{
+        width: 450px;
+    }
+
+    .facilities {
+        padding: 50px 80px;
+    }
+    
+    .facility {
+        width: 330px;
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+
+    .home-header {
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    .home-header-left {
+        width: 300px;
+        padding: 0;
+    }
+
+    .home-header-left h1 {
+        max-width: 100%;
+        word-wrap: break-word;
+        font-size: 40px;
+    }
+
+    .home-header-right img {
+        width: 345px;
+    }
+    
+    .part-of-vmse {
+        height: 310px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .part-of-vmse-left {
+        margin-top: -100px;
+    }
+    
+
+    .part-of-vmse-left-img {
+        width: 325px !important;
+    }
+
+    .part-of-vmse-right h1{
+        font-size: 48px !important;
+    }
+
+    .part-of-vmse-right p {
+        margin-bottom: 0;
+    }
+
+    .benefits {
+        padding: 250px 50px;
+    }
+
+    .benefits-cards .card {
+        width: 250px;
+        height: 300px;
+        padding: 23px 30px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 7px;
+    
+        margin: 15px 20px;
+    }
+
+    .take-your-horse {
+        height: 470px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .take-your-horse-left h1 {
+        font-size: 40px;
+    }
+
+    .take-your-horse-right img {
+        width: 327px;
+    }
+
+    .events-and-stop {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    .events-and-stop-left img{
+        width: 300px;
+    }
+    
+    .events-and-stop-right h1 {
+        font-size: 45px;
+    }
+    
+    .events-and-stop-links a {
+        padding: 12px 22px;
+        margin: 0 10px;
+    }
+
+    .teachers {
+        padding: 0 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Home Header */
+    .home-header {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px;
+        margin-top: 135px;
+    }
+
+    .home-header-left h1 {
+        font-size: 52px;
+    }
+
+    .home-header-left {
+        width: 100%;
+    }
+
+    .home-header-right img {
+        display: none;
+    }
+    
+
+    /* Part Of Vmse */
+    .part-of-vmse {
+        flex-direction: column;
+        height: auto;
+        margin-top: 150px;
+        padding: 90px 15px 50px 15px;
+    }
+
+    .part-of-vmse-left {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .part-of-vmse-left-img {
+        width: 100% !important;
+        margin-top: 0 !important;
+    }
+
+    .part-of-vmse-right {
+        width: 100%;
+        padding: 35px 0px 0 0;
+    }
+
+    .benefits {
+        padding: 50px 0;
+    }
+
+    .benefits-cards {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    
+    .benefits-cards .card {
+        width: 85%;
+        margin: 10px auto;
+        padding: 20px;
+    }
+
+    .benefit-card-description {
+        padding: 0;
+        width: 80%;
+    }
+
+    .benefits-description {
+        padding: 0 10%;
+        width: 70%;
+    }
+    
+    .take-your-horse {
+        flex-direction: column;
+        height: auto;
+        padding: 60px 15px;
+    }
+
+    .take-your-horse-left {
+        width: 100%;
+    }
+
+    .take-your-horse-left h1{
+        font-size: 53px;
+    }
+
+    .take-your-horse-right img{
+        margin: 50px 0 0 0;
+        width: 100%;
+    }
+
+    .events-and-stop {
+        flex-direction: column;
+        padding: 90px 15px;
+    }
+    
+    .events-and-stop-left img{
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    .events-and-stop-right {
+        width: 90%;
+        margin-top: 35px;
+    }
+    .events-and-stop-right h1 {
+        font-size: 52px;
+    }
+    
+    .events-and-stop-links {
+        justify-content: center;
+    }
+
+    .events-and-stop-links a {
+        padding: 15px 25px;
+        margin: 0 10px;
+    }
+
+    .teachers {
+        padding: 0 10px;
+    }
+
+    .teachers-card {
+        padding: 0;
+        margin-right: 10px;
+    }
+
+    .teachers-card img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .facilities {
+        padding: 50px 30px 0 10px;
+    }
+
+    .facility-title h1 {
+        margin-bottom: 18px;
+    }
+    
+    .facilities-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .facility {
+        width: 100%;
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,107 @@
+.horse-details {
+    width: 55%;
+    padding: 150px 0;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.horse-details-left {
+    width: 100%;
+}
+
+.horse-details img {
+    width: 100%;
+    /* max-height: 500px; */
+    border-radius: 5px;
+}
+
+.horse-details-description {
+    padding: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.horse-details h2 {
+    font-size: 28px;
+}
+
+.horse-details p {
+    color: #777;
+}
+
+.this-horse-details {
+    border-top: 1px solid #11111154;
+    padding-top: 20px;
+    margin-top: 50px;
+    font-family:cursive;
+}
+
+.horse-details-personality {
+    margin-top: 50px;
+}
+
+.other-horses {
+    padding: 50px 0;
+}
+
+.other-horses-header h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.other-horses-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 55%;
+}
+
+.other-horses-card-1 {
+    background: linear-gradient(#11111173,#11111173), url('../assets/Midnight.png');
+}
+.other-horses-card-2 {
+    background: linear-gradient(#11111173,#11111173), url('../assets/Starlight.jpg');
+}
+.other-horses-card-3 {
+    background: linear-gradient(#11111173,#11111173), url('../assets/Whisper.jpg');
+}
+
+.other-horses-card {
+    padding: 23px 40px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+
+    margin: 15px 5px;
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.other-horses-card a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .horse-details {
+        width: 700px;
+    }
+    
+    .other-horses-cards {
+        width: 700px;
+    }
+    .other-horses-card {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .horse-details {
+        width: 95%;
+    }
+    .other-horses-cards {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}

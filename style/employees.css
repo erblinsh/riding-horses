@@ -1,0 +1,121 @@
+:root {
+    --body-bg-color: #eee;
+    --font-color: #232558;
+}
+
+/* Used more than 1 time */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* */
+
+.employees {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+    box-shadow: 0 5px 5px #1111112d;
+}
+
+.employees h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.employees p {
+    color: #777;
+}
+
+.employees-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 55px;
+}
+
+.employees-card {
+    text-align: center;
+    padding: 10px;
+}
+.employees-card a{
+    text-decoration: none;
+    color: var(--font-color)
+}
+
+.employees-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+
+
+.do-you-need-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 400px;
+}
+
+.do-you-need-help h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.do-you-need-help a {
+ background-color: #232558;
+ color: #fff;
+ text-decoration: none;
+ padding: 15px 25px;
+ border-radius: 25px;
+ box-shadow: 0 8px 10px #2222222c;
+}
+
+@media only screen and (max-width: 1300px) {
+    .employees {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .employees {
+        padding: 0 20px;
+    }
+
+    .employees-cards {
+        margin: 60px;
+    }
+    
+    .employees-card img{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .employees-cards {
+        grid-template-columns: 1fr 1fr;
+        margin: 60px 0;
+        width: 100%;
+    }
+
+    .employees-card img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .employees-card h3{
+        margin-bottom: 0;
+    }
+
+    .employees-card p{
+        margin-top: 6px;
+    }
+}

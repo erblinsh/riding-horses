@@ -1,0 +1,155 @@
+.about-us {
+    margin-top: 140px;
+    padding: 50px 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 5px 5px #1111112d;
+}
+
+.about-us p {
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #777;
+}
+
+.about-us-header {
+    text-align: center;
+}
+
+.about-us-body {
+    padding: 150px 0;
+    margin-top: 50px;
+}
+
+.about-us-body h2 {
+    font-size: 40px;
+}
+
+.about-us-body h5 {
+    margin: 40px 0 0 0;
+    font-size: 14px;
+}
+
+.about-us-owned-by {
+    display: flex;
+}
+
+.about-us-owned-by p {
+    margin-top: 7px;
+}
+
+.about-us-owned-by-left {
+    width: 50%;
+}
+
+.about-us-owned-by-right {
+    margin-left: 130px;
+}
+
+.about-us-owned-by-right img {
+    width: 300px;
+}
+
+.do-you-need-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 400px;
+}
+
+.do-you-need-help h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.do-you-need-help a {
+ background-color: #232558;
+ color: #fff;
+ text-decoration: none;
+ padding: 15px 25px;
+ border-radius: 25px;
+ box-shadow: 0 8px 10px #2222222c;
+}
+
+@media only screen and (max-width: 1300px) {
+    .about-us {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .about-us-header {
+        padding: 0 30px;
+    }
+    
+    .about-us-body h2 {
+        padding-right: 50px;
+    }
+
+    .about-us-owned-by-left {
+        width: 450px;
+        min-width: 450px;
+    }
+    
+    .about-us-owned-by-right {
+        margin-left: 50px;
+    }
+
+    .about-us-owned-by-right img {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-us {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .about-us-owned-by-left {
+        width: 320px;
+        min-width: 320px;
+    }
+    .about-us-owned-by-right {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-us {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about-us-body {
+        padding: 120px 0;
+    }
+
+    .about-us-header {
+        padding: 0;
+    }
+
+    .about-us-owned-by {
+        flex-direction: column;
+    }
+
+    .about-us-owned-by-left {
+        width: 100%;
+    }
+
+    .about-us-owned-by-left p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .about-us-owned-by-right {
+        display: flex;
+        margin: 60px auto;
+    }
+
+    .about-us-owned-by-right img {
+        width: 300px;
+    }
+}

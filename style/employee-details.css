@@ -1,0 +1,125 @@
+.employee-details {
+    width: 55%;
+    padding: 150px 0;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.employee-details-header {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+}
+
+.employee-details-left {
+    width: 100%;
+}
+
+.employee-details img {
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.employee-details-description {
+    padding: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #11111154;
+}
+
+.employee-details-description h2 {
+    margin-bottom: 15px;
+}
+
+.employee-details-description h5 {
+    color: #777;
+    margin-top: 0;
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+
+.employee-details h2 {
+    font-size: 28px;
+}
+
+.employee-details p {
+    color: #777;
+}
+
+.this-employee-details {
+    border-top: 1px solid #11111154;
+    padding-top: 20px;
+    margin-top: 50px;
+    font-family:cursive;
+}
+
+.employee-details-personality {
+    margin-top: 50px;
+}
+
+.other-employees {
+    padding: 50px 0;
+}
+
+.other-employees-header h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.other-employees-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 55%;
+}
+
+.other-employees-card-1 {
+    background: linear-gradient(#11111173,#11111173), url('../assets/annie\ \(1\).jpg');
+}
+.other-employees-card-2 {
+    background: linear-gradient(#11111173,#11111173), url('../assets/klaus.jpg');
+}
+.other-employees-card-3 {
+    background: linear-gradient(#11111173,#11111173), url('../assets/philip.jpg');
+}
+
+.other-employees-card {
+    padding: 23px 40px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+
+    margin: 15px 5px;
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.other-employees-card a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .employee-details {
+        width: 700px;
+    }
+    
+    .other-employees-cards {
+        width: 700px;
+    }
+    .other-employees-card {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .employee-details {
+        width: 95%;
+    }
+    .other-employees-cards {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}

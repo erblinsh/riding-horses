@@ -96,10 +96,16 @@ p {
 }
 
 .contact-us-right-btn {
-    background-color: #232558;
+    background-color: var(--font-color);
     color: #fff;
     margin-top: 20px;
     padding: 14px 20px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.contact-us-right-btn:hover {
+    background-color: #191a4f;
 }
 
 @media only screen and (max-width: 1000px) {

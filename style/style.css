@@ -1,7 +1,10 @@
+@import url('animation.css');
+
 :root {
     --body-bg-color: #eee;
     --font-color: #232558;
 }
+
 
 /* Used more than 1 time */
 h1 {
@@ -75,6 +78,7 @@ p {
 .part-of-vmse {
     display: flex;
     align-items: center;
+    overflow: hidden;
     height: 350px;
     margin-top: 325px;
     background: linear-gradient(135deg, #8585a3 0%, #333366 100%);
@@ -170,7 +174,12 @@ p {
     border-radius: 7px;
 
     margin: 15px;
+    box-shadow: 0 5px 10px #11111147;
+}
 
+.benefits-cards .card:hover {
+    margin-top: 5px;
+    transition: all ease 0.1s;
 }
 
 .benefit-card-description {
@@ -207,10 +216,13 @@ p {
 
 /* Take Your Horse */
 
+.rent-horse-to-us {
+    background: linear-gradient(135deg, #cd4546 0%,#343366 100%);
+}
+
 .take-your-horse {
     display: flex;
     justify-content: center;
-    background: linear-gradient(135deg, #cd4546 0%,#343366 100%);
     height: 500px;
     color: #fff;
     padding: 90px 80px 30px 80px;
@@ -249,6 +261,27 @@ p {
     margin-top: -140px;
     
     box-shadow: 0 5px 10px #11111141;
+}
+
+
+.custom-shape-divider-bottom-1717016746 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-top: -5px; 
+}
+
+.custom-shape-divider-bottom-1717016746 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 120px; 
+}
+
+.custom-shape-divider-bottom-1717016746 .shape-fill {
+    fill: var(--body-bg-color);
 }
 
 /* Events And Stop Left */
@@ -379,6 +412,15 @@ p {
  padding: 15px 25px;
  border-radius: 25px;
  box-shadow: 0 8px 10px #2222222c;
+}
+
+
+.part-of-vmse-left, 
+.part-of-vmse-right, 
+.benefits-description, 
+.events-and-stop-left,
+.take-your-horse-right {
+    opacity: 0;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -543,8 +585,12 @@ p {
         flex-direction: column;
         display: flex;
         justify-content: space-between;
-        padding: 0 100px;
+        padding: 0 15%;
         margin-top: 135px;
+    }
+
+    .home-header-left {
+        min-width: 250px;
     }
 
     .home-header-left h1 {
@@ -683,16 +729,5 @@ p {
     
     .facility {
         width: 100%;
-    }
-}
-
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
     }
 }

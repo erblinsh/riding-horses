@@ -1,3 +1,7 @@
+## Assignment 2
+
+#### Shtimi i javascriptit dhe permbushja e kerkesave
+
 ## Ndryshimet
 
 Ndryshimet e mia ndaj webfaqes që jam bazuar në të janë si më poshtë: 

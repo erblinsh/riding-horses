@@ -1,3 +1,5 @@
+@import url('animation.css');
+
 :root {
     --body-bg-color: #eee;
     --font-color: #232558;
@@ -38,6 +40,10 @@ nav {
     width: 300px;
 }
 
+.nav-mask {
+    display: none;
+}
+
 .nav-links {
     display: flex;
     align-items: center;
@@ -72,7 +78,7 @@ nav {
     left: 0;
     bottom: -4px;
     opacity: 0;
-    transition: all ease-in 0.15s;
+    transition: all ease-in 0.175s;
 }
 
 .nav-links>li a:hover::after {
@@ -88,11 +94,9 @@ nav {
     padding: 5px;
     border-radius: 5px;
     margin-top: 20px;
-    /* display: none; */
-    opacity: 0;
     visibility: hidden;
 
-    transition: all ease 0.5s;
+    transition: all ease 0.4s;
 }
 
 .dropdown li {
@@ -112,7 +116,7 @@ nav {
 .nav-links>li:hover .dropdown {
     visibility:visible;
     opacity: 1;
-    transition: all ease 0.7s;
+    transition: all ease 0.1s;
 }
 
 .dropdown li a:hover {
@@ -126,14 +130,6 @@ nav {
 .hamburger {
     display: none;
     padding-right: 17px;
-}
-
-.hamburger span {
-    display: block;
-    width: 23px;
-    height: 3px;
-    background-color: var(--font-color);
-    margin-bottom: 5px;
 }
 
 /* footer */
@@ -206,12 +202,16 @@ footer {
 
 
 @media only screen and (max-width: 768px) {
-    nav {   
+    nav { 
         position: fixed;
         padding: 2px 20px;
     }
+    
+    .nav-mask {
+        display: block;
+    }
 
-    .nav-right.active {
+    .nav-mask.active {
         background-color: #3333339c;
         position: fixed;
         top:0;
@@ -222,40 +222,89 @@ footer {
     }
 
     .nav-links {
-        display: none;
+        display: block;
+        position: fixed;
+        padding: 15px 0 0 17px;
+        left: -100%;
+        top: 0;
+        bottom: 0;
+        right: auto;
+        background-color: #fff;
+        width: 40%;
+        margin: 0;
+        transition: all ease 0.3s;
     }
 
     .nav-links.active {
-        display: block;
-        position: absolute;
-        margin: 0;
-        padding: 15px 0 0 17px;
-        top: 0;
-        bottom: 0;
+        visibility: visible;
         left: 0;
-        right: 45%;
-        background-color: #fff;
     }
 
-    .nav-links.active li {
+    .nav-links>li {
         padding: 12px 0;
         z-index: 999;
 
     }
-
-    .nav-links.active li a {
+    .nav-links>li a {
         text-transform: uppercase;
         font-weight: 500;
         font-size: 18px;
     }
+    
+    .nav-links>li a::after {
+        content: none;
+    }
+    
+    .dropdown {
+        background-color: #fff;
+        width: 100%;
+        padding: 0;
+        border-radius: 5px;
+        margin-top: 0px;
+        max-height: 0%;
+        position: relative;
+        overflow: hidden;
+        visibility: visible;
+
+        transition: all ease-out 0s;
+    }
+    .dropdown li {
+        position: relative;
+        max-height: 0;
+        overflow: hidden;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .nav-links>li:hover .dropdown li {
+        max-height: 1000px;
+    }
+    
+    .dropdown li a {
+        color: #777;
+        padding: 5px 0;
+        font-size: 17px;
+    }
+
+    .dropdown li a:hover {
+        text-decoration: none;
+    }
+    /* Warning check max-width */
+    .nav-links>li:hover .dropdown {
+        visibility:visible;
+        max-width: 100%;
+        transition: all ease 0.5s;
+    }
 
     .nav-search {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-top: 22px;
         padding-left: 15px;
     }
 
     .nav-search input {
+        width: 90%;
         border: 0;
         outline: 0;
         font-size: 18px;
@@ -268,7 +317,23 @@ footer {
 
     .hamburger {
         display: block;
+        cursor: pointer;
     }
+
+    .hamburger span {
+        display: block;
+        width: 23px;
+        height: 3px;
+        background-color: var(--font-color);
+        margin-bottom: 5px;
+
+        transition: all ease 0.4s;
+    }
+
+
+    .hamburger.active span:nth-child(1){ transform: translateY(8px) rotate(45deg); }
+    .hamburger.active span:nth-child(2){ opacity: 0 }
+    .hamburger.active span:nth-child(3){ transform: translateY(-8px) rotate(-45deg); }
 
     footer {
         grid-template-columns: 1fr;
@@ -277,5 +342,11 @@ footer {
 
     .footer-item-search input {
         width: 90%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .nav-links {
+        width: 55%;
     }
 }

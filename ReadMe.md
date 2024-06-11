@@ -1,14 +1,14 @@
 ## Assignment 3
 
-### Per te bere funksionuar ky website duhet te behet run ne live server
-### Ofron nje API permes json server
+### - Per te bere funksionuar ky website duhet te behet run ne live server
+### - Ofron nje API permes json server i cili duhet te behet run permes comandes npm run server-json
 
 ## Ndryshimet ndaj webfaqes që jam bazuar në të janë
 
-#### kam shtuar dark mode
-#### pagination (eshte funksionale)
-#### show messages (njoftimi i perdoruesve)
-#### si dhe permbushja e te gjitha kerkesave te assignment 3
+#### - kam shtuar dark mode
+#### - pagination (eshte funksionale)
+#### - show messages (njoftimi i perdoruesve)
+#### - si dhe permbushja e te gjitha kerkesave te assignment 3
 
 
 ## Assignment 2

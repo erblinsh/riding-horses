@@ -1,3 +1,11 @@
+:root {
+    --btn-bg-color: #232558;
+}
+
+.dark-mode {
+    --btn-bg-color: #848127;
+}
+
 .about-us {
     margin-top: 140px;
     padding: 50px 200px;
@@ -65,7 +73,7 @@
 }
 
 .do-you-need-help a {
- background-color: #232558;
+ background-color: var(--btn-bg-color);
  color: #fff;
  text-decoration: none;
  padding: 15px 25px;

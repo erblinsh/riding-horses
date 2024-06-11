@@ -1,3 +1,16 @@
+## Assignment 3
+
+### Per te bere funksionuar ky website duhet te behet run ne live server
+### Ofron nje API permes json server
+
+## Ndryshimet ndaj webfaqes që jam bazuar në të janë
+
+#### kam shtuar dark mode
+#### pagination (eshte funksionale)
+#### show messages (njoftimi i perdoruesve)
+#### si dhe permbushja e te gjitha kerkesave te assignment 3
+
+
 ## Assignment 2
 
 #### Shtimi i javascriptit dhe permbushja e kerkesave

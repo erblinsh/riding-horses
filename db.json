@@ -1,0 +1,105 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Annie Pape",
+            "role": "Department Manager",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/AnniPape_rideefterskole-150x150.jpg",
+            "description": "Annie Pape, our esteemed Department Manager, is the cornerstone of our team. With her keen leadership skills and unwavering dedication, she ensures the smooth functioning of our department, driving us towards excellence with her strategic vision and meticulous attention to detail.",
+            "personality": "Annie is a dynamic and empathetic leader, known for her ability to inspire and motivate those around her. She leads by example, fostering a collaborative and supportive environment where everyone feels valued and empowered. Annie's warm demeanor and approachable nature make her a trusted confidante and mentor to her colleagues, always ready to lend an ear or offer guidance with a genuine smile.",
+            "history": "Annie's journey with our company began several years ago when she joined as a Junior Associate. Through her dedication and hard work, she quickly rose through the ranks, earning recognition for her exceptional leadership qualities and innovative problem-solving skills. Today, as our Department Manager, Annie continues to surpass expectations, guiding our team towards success with her unwavering commitment to excellence and passion for driving positive change."
+        },
+        {
+            "id": 2,
+            "name": "Klaus Meldgård",
+            "role": "Underviser, dressur (berider)",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/Klaus_beska%CC%8Aret-768x768.jpg",
+            "description": "Klaus Meldgård, our accomplished Underviser in dressage, brings a wealth of expertise and passion to our team. As a seasoned berider, Klaus is dedicated to training both horses and riders, ensuring they reach their highest potential in the art of dressage.",
+            "personality": "Klaus is known for his patience, precision, and unwavering commitment to excellence. His calm demeanor and methodical approach make him a respected mentor among his students. Klaus's deep understanding of horse behavior and his empathetic nature allow him to forge strong bonds with both his equine and human pupils, fostering an environment of mutual respect and trust.",
+            "history": "Klaus's journey in the world of dressage began at a young age, fueled by a lifelong passion for horses. After completing rigorous training and earning his credentials as a berider, he gained extensive experience in both national and international arenas. Klaus joined our team with a mission to share his knowledge and inspire the next generation of dressage riders. His legacy is marked by numerous successful students and horses that have thrived under his expert guidance."
+        },
+        {
+            "id": 3,
+            "name": "Sune Damgaard Jensen",
+            "role": "Instructor, dressage (rider)",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/Sune-Damgaard-berider-Vestbirk-efterskole-ridelinje-220x220.jpg",
+            "description": "Sune Damgaard Jensen is a distinguished Underviser in dressage, renowned for his expertise as a berider. Sune's exceptional skills in training and his deep understanding of dressage techniques make him an invaluable asset to our team.",
+            "personality": "Sune is characterized by his dedication, precision, and approachable nature. He is a patient and insightful instructor who takes great pride in fostering a positive learning environment. Sune's ability to connect with both horses and riders on a personal level ensures that each training session is productive and enjoyable, promoting mutual growth and respect.",
+            "history": "Sune's passion for dressage began early in his life, leading him to pursue extensive training and certification as a berider. Over the years, he has honed his skills through a combination of hands-on experience and competitive success. Sune has trained under some of the most respected names in the field, further enhancing his techniques and methodologies. Since joining our team, he has been instrumental in guiding numerous horses and riders to achieve excellence in dressage, earning widespread admiration and respect within the community."
+        },
+        {
+            "id": 4,
+            "name": "Philip Mailby",
+            "role": "Underviser, dressur (berider)",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/PhilipMejlby_rideefterskole-550x550.jpg",
+            "description": "Philip Mailby is a distinguished Underviser in dressage, renowned for his expertise as a berider. Sune's exceptional skills in training and his deep understanding of dressage techniques make him an invaluable asset to our team.",
+            "personality": "Sune is characterized by his dedication, precision, and approachable nature. He is a patient and insightful instructor who takes great pride in fostering a positive learning environment. Sune's ability to connect with both horses and riders on a personal level ensures that each training session is productive and enjoyable, promoting mutual growth and respect.",
+            "history": "Sune's passion for dressage began early in his life, leading him to pursue extensive training and certification as a berider. Over the years, he has honed his skills through a combination of hands-on experience and competitive success. Sune has trained under some of the most respected names in the field, further enhancing his techniques and methodologies. Since joining our team, he has been instrumental in guiding numerous horses and riders to achieve excellence in dressage, earning widespread admiration and respect within the community."
+        },
+        {
+            "id": 5,
+            "name": "Erling Naamann",
+            "role": "Stable staff",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/Erling_ridefterskole-150x150.jpg",
+            "description": "Erling Naamann is a distinguished Underviser in dressage, renowned for his expertise as a berider. Sune's exceptional skills in training and his deep understanding of dressage techniques make him an invaluable asset to our team.",
+            "personality": "Sune is characterized by his dedication, precision, and approachable nature. He is a patient and insightful instructor who takes great pride in fostering a positive learning environment. Sune's ability to connect with both horses and riders on a personal level ensures that each training session is productive and enjoyable, promoting mutual growth and respect.",
+            "history": "Sune's passion for dressage began early in his life, leading him to pursue extensive training and certification as a berider. Over the years, he has honed his skills through a combination of hands-on experience and competitive success. Sune has trained under some of the most respected names in the field, further enhancing his techniques and methodologies. Since joining our team, he has been instrumental in guiding numerous horses and riders to achieve excellence in dressage, earning widespread admiration and respect within the community."
+        },
+        {
+            "id": 6,
+            "name": "Jeanette Egebjrg",
+            "role": "Stable staff",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/Jeanette_rideefterskole-150x150.jpg",
+            "description": "Jeanette Egebjrg, our esteemed Stable staff, is the cornerstone of our team. With her keen leadership skills and unwavering dedication, she ensures the smooth functioning of our department, driving us towards excellence with her strategic vision and meticulous attention to detail.",
+            "personality": "Annie is a dynamic and empathetic leader, known for her ability to inspire and motivate those around her. She leads by example, fostering a collaborative and supportive environment where everyone feels valued and empowered. Annie's warm demeanor and approachable nature make her a trusted confidante and mentor to her colleagues, always ready to lend an ear or offer guidance with a genuine smile.",
+            "history": "Annie's journey with our company began several years ago when she joined as a Junior Associate. Through her dedication and hard work, she quickly rose through the ranks, earning recognition for her exceptional leadership qualities and innovative problem-solving skills. Today, as our Stable staff, Annie continues to surpass expectations, guiding our team towards success with her unwavering commitment to excellence and passion for driving positive change."
+        },
+        {
+            "id": 7,
+            "name": "Solveig Bruun Folkmann",
+            "role": "Stable staff",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/Solveig_beskåret-150x150.jpg",
+            "description": "Solveig Bruun Folkmann, our esteemed Stable staff, is the cornerstone of our team. With her keen leadership skills and unwavering dedication, she ensures the smooth functioning of our department, driving us towards excellence with her strategic vision and meticulous attention to detail.",
+            "personality": "Annie is a dynamic and empathetic leader, known for her ability to inspire and motivate those around her. She leads by example, fostering a collaborative and supportive environment where everyone feels valued and empowered. Annie's warm demeanor and approachable nature make her a trusted confidante and mentor to her colleagues, always ready to lend an ear or offer guidance with a genuine smile.",
+            "history": "Annie's journey with our company began several years ago when she joined as a Junior Associate. Through her dedication and hard work, she quickly rose through the ranks, earning recognition for her exceptional leadership qualities and innovative problem-solving skills. Today, as our Stable staff, Annie continues to surpass expectations, guiding our team towards success with her unwavering commitment to excellence and passion for driving positive change."
+        }
+    ],
+    "horses": [
+        { 
+            "id": 1,
+            "name": "Blaze",
+            "description": "Blaze is a majestic horse known for its speed and agility.",
+            "image": "https://diag4zoo.fr/wp-content/uploads/2024/02/240_F_326500445_ZD1zFSz2cMT1qOOjDy7C5xCD4shawQfM.jpg"
+        },
+        { 
+            "id": 2,
+            "name": "Midnight",
+            "description": "Midnight is a gentle horse with a calm demeanor.",
+            "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/160B4/production/_103229209_horsea.png"
+        },
+        { 
+            "id": 3,
+            "name": "Starlight",
+            "description": "Starlight is a spirited horse with a love for adventure.",
+            "image": "https://i.pinimg.com/736x/d2/d9/31/d2d931c8bd297a9324e84051c4b9f6be.jpg"
+        },
+        { 
+            "id": 4,
+            "name": "Whisper",
+            "description": "Whisper is a loyal companion, always ready to explore.",
+            "image": "https://www.morningagclips.com/wp-content/uploads/2024/04/ac-hpa-pr-1024x569.jpg"
+        },
+        { 
+            "id": 5,
+            "name": "Spirit",
+            "description": "Spirit is a graceful horse with a kind heart.",
+            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1PtKh7LxHr-Nq4rIoN7miN72xnRCJxI9yX67F8IJH1CEMpfxB"
+        },
+        { 
+            "id": 6,
+            "name": "Daisy",
+            "description": "Daisy is a playful horse who enjoys spending time outdoors.",
+            "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQofn_QfOau1Erc49X_SeJ7ASQz5ptZGekB0fp6wa71r3PgsveM"
+        }
+    ]
+}

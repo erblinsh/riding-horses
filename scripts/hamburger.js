@@ -3,14 +3,13 @@ let navRight = document.getElementById('nav-mask');
 let navLinks = document.getElementsByClassName('nav-links')[0];
 const navbarSearchInput = document.querySelector('.nav-search input');
 
-
-hamburger.addEventListener('click', (e) => {
-    e.stopPropagation();
-
-    navRight.classList.toggle("active");
-    navLinks.classList.toggle("active");
-    hamburger.classList.toggle('active');
-})
+if (hamburger) {
+    hamburger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        navRight.classList.toggle("active");
+        navLinks.classList.toggle("active");
+        hamburger.classList.toggle('active');
+    });
 
 
 navbarSearchInput.addEventListener('click', (e) => {
@@ -25,3 +24,4 @@ document.body.addEventListener('click', () => {
         hamburger.classList.remove('active');
     }
 })
+}

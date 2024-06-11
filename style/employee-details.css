@@ -74,20 +74,8 @@
     width: 55%;
 }
 
-.other-employees-card-1 {
-    background: linear-gradient(#11111173,#11111173), url('../assets/annie\ \(1\).jpg');
-}
-.other-employees-card-2 {
-    background: linear-gradient(#11111173,#11111173), url('../assets/klaus.jpg');
-}
-.other-employees-card-3 {
-    background: linear-gradient(#11111173,#11111173), url('../assets/philip.jpg');
-}
-
 .other-employees-card {
     padding: 23px 40px;
-    background-size: cover;
-    background-position: center;
     border-radius: 7px;
 
     margin: 15px 5px;

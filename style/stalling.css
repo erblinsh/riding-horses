@@ -1,6 +1,19 @@
 :root {
     --body-bg-color: #eee;
     --font-color: #232558;
+    --btn-bg-color: #232558;
+    --contact-us-btn: #cc3333;
+    --prices-for-housing: linear-gradient(135deg, #8585a3 0%,#272759 100%);
+    --terms-and-conditions-color: #0b0232;
+}
+
+.dark-mode {
+    --body-bg-color: #212121;
+    --font-color: #aaa740 !important;
+    --btn-bg-color: #848127;
+    --contact-us-btn: #1b8d8d;
+    --prices-for-housing: linear-gradient(135deg, #58584e 0%,#59592b 100%);
+    --terms-and-conditions-color: #a3a80e;
 }
 
 p {
@@ -44,7 +57,7 @@ p {
 }
 
 .the-best-surroundings-left a {
-    background-color: #232558;
+    background-color: var(--btn-bg-color);
     color: #fff;
     text-decoration: none;
     padding: 15px 23px;
@@ -58,7 +71,7 @@ p {
 }
 
 .prices-for-housing {
-    background: linear-gradient(135deg, #8585a3 0%,#272759 100%);
+    background: var(--prices-for-housing);
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px 200px;
@@ -140,7 +153,7 @@ p {
     font-size: 13px;
     color: #fff;
     text-decoration: none;
-    background-color: #cc3333;
+    background-color: var(--contact-us-btn);
     border-radius: 25px;
     box-shadow: 0 10px 10px #2222222c;
 }
@@ -160,7 +173,7 @@ p {
 }
 
 .terms-and-conditions-for-housing p {
-    color: #0b0232;
+    color: var(--terms-and-conditions-color);
     font-weight: 700;
     margin-left: 20px;
 }
@@ -186,7 +199,7 @@ p {
 }
 
 .do-you-need-help a {
-    background-color: #232558;
+    background-color: var(--btn-bg-color);
     color: #fff;
     text-decoration: none;
     padding: 15px 25px;

@@ -1,0 +1,15 @@
+{
+  "name": "horse-riding",
+  "version": "1.0.0",
+  "description": "Ndryshimet e mia ndaj webfaqes që jam bazuar në të janë si më poshtë:",
+  "main": "index.js",
+  "scripts": {
+    "server-json": "json-server --watch db.json" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}

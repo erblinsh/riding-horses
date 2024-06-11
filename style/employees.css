@@ -1,6 +1,11 @@
 :root {
     --body-bg-color: #eee;
     --font-color: #232558;
+    --btn-bg-color: #232558;
+}
+
+.dark-mode {
+    --btn-bg-color: #848127;
 }
 
 /* Used more than 1 time */
@@ -70,7 +75,7 @@ p {
 }
 
 .do-you-need-help a {
- background-color: #232558;
+ background-color: var(--btn-bg-color);
  color: #fff;
  text-decoration: none;
  padding: 15px 25px;

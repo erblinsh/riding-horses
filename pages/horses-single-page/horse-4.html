@@ -50,28 +50,17 @@
         <div class="other-horses-header">
             <h2>Related Horses</h2>
         </div>
-        <div class="other-horses-cards">
-            <div class="other-horses-card other-horses-card-1">
-                <h3>Midnight</h3>
-                <a href="./horse-2.html">Learn more</a>
-            </div>
-
-            <div class="other-horses-card other-horses-card-2">
-                <h3>Starlight</h3>
-                <a href="./horse-3.html">Learn more</a>
-            </div>
-
-            <div class="other-horses-card other-horses-card-3">
-                <h3>Whisper</h3>
-                <a href="./horse-4.html">Learn more</a>
-            </div>
-        </div>
+        <div class="other-horses-cards"></div>
     </div>
 
-    <footer></footer>
+
     
-    <script src="../../scripts/navbar-single-pages.js"></script>
-    <script src="../../scripts/hamburger.js"></script>
-    <script src="../../scripts/footer.js"></script>
+    <script type="module">
+        import('../../scripts/navbar-single-pages.js');
+        import('../../scripts/hamburger.js');
+        import('../../scripts/helpers/backToTop.js');
+        import('../../scripts/horses-single-page/other-horses-cards.js');
+        import('../../scripts/footer.js');
+    </script>
 </body>
 </html>

@@ -55,16 +55,6 @@
     width: 55%;
 }
 
-.other-horses-card-1 {
-    background: linear-gradient(#11111173,#11111173), url('../assets/Midnight.png');
-}
-.other-horses-card-2 {
-    background: linear-gradient(#11111173,#11111173), url('../assets/Starlight.jpg');
-}
-.other-horses-card-3 {
-    background: linear-gradient(#11111173,#11111173), url('../assets/Whisper.jpg');
-}
-
 .other-horses-card {
     padding: 23px 40px;
     background-size: cover;

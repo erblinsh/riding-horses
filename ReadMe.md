@@ -10,6 +10,11 @@
 #### - show messages (njoftimi i perdoruesve)
 #### - si dhe permbushja e te gjitha kerkesave te assignment 3
 
+### Browser Storage
+- Session storage eshte perdorur tek contact us (form) nese fields jane te mbushura dhe kalon ne faqen tjeter te dhenat mbesin te ruajtura ne session storage dhe te mbushura ne contact us, dhe nese perdoruesi kthehet tek contact us mos te kete nevoj t'i shkruaj perseri.
+- Session storage eshte perdorur edhe tek rent horse tek pagination
+- Local storage eshte perdorur tek dark mode
+- Cookie eshte perdorur tek subscribe e-mail
 
 ## Assignment 2
 

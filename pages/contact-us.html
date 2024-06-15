@@ -34,7 +34,7 @@
             <form id="contact-us-form">
                 <div class="contact-us-right-field injury">
                     <label for="inquiry">What is your inquiry about? *</label>
-                    <select name="inquiry" id="inquiry" required>
+                    <select name="inquiry" id="inquiry">
                         <option value="#">--Please Select an option--</option>
                         <option value="rental">Rental</option>
                         <option value="facility-card">Facility card</option>
@@ -42,26 +42,32 @@
                         <option value="stalling">Stalling</option>
                         <option value="other-things">Other things</option>
                     </select>
+                    <p class="error-message" id="inquiry-error"></p> 
                 </div>
 
+            
                 <div class="contact-us-right-field">
                     <label for="name">Your name *</label>
-                    <input type="text" name="name" id="name" required>
+                    <input type="text" name="name" id="name">
+                    <p class="error-message" id="name-error"></p>
                 </div>
                 
                 <div class="contact-us-right-field">
                     <label for="email">Your email *</label>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email">
+                    <p class="error-message" id="email-error"></p>
                 </div>
-
+                
                 <div class="contact-us-right-field">
                     <label for="phone">Your phone number</label>
                     <input type="tel" name="phone" id="phone">
+                    <p class="error-message" id="phone-error"></p>
                 </div>
                 
                 <div class="contact-us-right-field">
                     <label for="message">Your message *</label>
-                    <textarea rows="15" cols="45" name="message" id="message" required></textarea>
+                    <textarea rows="15" cols="45" name="message" id="message"></textarea>
+                    <p class="error-message" id="message-error"></p>
                 </div>
 
                 <button type="submit" class="contact-us-right-btn">Submit</button>
@@ -69,12 +75,12 @@
         </div>
     </div>
 
-    <footer></footer>
 
     
-    <script src="../scripts/navbar.js"></script>
-    <script src="../scripts/hamburger.js"></script>
-    <script src="../scripts/contact-us.js"></script>
-    <script src="../scripts/footer.js"></script>
+    
+    <script type="module" src="../scripts/navbarPages.js"></script>
+    <script type="module" src="../scripts/helpers/backToTop.js"></script>
+    <script type="module" src="../scripts/contact-us.js"></script>
+    <script type="module" src="../scripts/footer.js"></script>
 </body>
 </html>

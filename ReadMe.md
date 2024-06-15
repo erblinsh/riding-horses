@@ -1,3 +1,22 @@
+## Assignment 3
+
+### - Per te bere funksionuar ky website duhet te behet run ne live server
+### - Ofron nje API permes json server i cili duhet te behet run permes comandes npm run server-json
+
+## Ndryshimet ndaj webfaqes që jam bazuar në të janë
+
+#### - kam shtuar dark mode
+#### - pagination tek rent horse (eshte funksionale)
+#### - load more tek employee (eshte funksionale)
+#### - show messages (njoftimi i perdoruesve)
+#### - si dhe permbushja e te gjitha kerkesave te assignment 3
+
+### Browser Storage
+- Session storage eshte perdorur tek contact us (form) nese fields jane te mbushura dhe kalon ne faqen tjeter te dhenat mbesin te ruajtura ne session storage dhe te mbushura ne contact us, dhe nese perdoruesi kthehet tek contact us mos te kete nevoj t'i shkruaj perseri.
+- Session storage eshte perdorur edhe tek rent horse tek pagination
+- Local storage eshte perdorur tek dark mode
+- Cookie eshte perdorur tek subscribe e-mail
+
 ## Assignment 2
 
 #### Shtimi i javascriptit dhe permbushja e kerkesave

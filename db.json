@@ -1,0 +1,177 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Annie Pape",
+            "role": "Department Manager",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/AnniPape_rideefterskole-150x150.jpg",
+            "description": "Annie Pape, our esteemed Department Manager, is the cornerstone of our team. With her keen leadership skills and unwavering dedication, she ensures the smooth functioning of our department, driving us towards excellence with her strategic vision and meticulous attention to detail.",
+            "personality": "Annie is a dynamic and empathetic leader, known for her ability to inspire and motivate those around her. She leads by example, fostering a collaborative and supportive environment where everyone feels valued and empowered. Annie's warm demeanor and approachable nature make her a trusted confidante and mentor to her colleagues, always ready to lend an ear or offer guidance with a genuine smile.",
+            "history": "Annie's journey with our company began several years ago when she joined as a Junior Associate. Through her dedication and hard work, she quickly rose through the ranks, earning recognition for her exceptional leadership qualities and innovative problem-solving skills. Today, as our Department Manager, Annie continues to surpass expectations, guiding our team towards success with her unwavering commitment to excellence and passion for driving positive change."
+        },
+        {
+            "id": 2,
+            "name": "Klaus Meldgård",
+            "role": "Underviser, dressur (berider)",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/Klaus_beska%CC%8Aret-768x768.jpg",
+            "description": "Klaus Meldgård, our accomplished Underviser in dressage, brings a wealth of expertise and passion to our team. As a seasoned berider, Klaus is dedicated to training both horses and riders, ensuring they reach their highest potential in the art of dressage.",
+            "personality": "Klaus is known for his patience, precision, and unwavering commitment to excellence. His calm demeanor and methodical approach make him a respected mentor among his students. Klaus's deep understanding of horse behavior and his empathetic nature allow him to forge strong bonds with both his equine and human pupils, fostering an environment of mutual respect and trust.",
+            "history": "Klaus's journey in the world of dressage began at a young age, fueled by a lifelong passion for horses. After completing rigorous training and earning his credentials as a berider, he gained extensive experience in both national and international arenas. Klaus joined our team with a mission to share his knowledge and inspire the next generation of dressage riders. His legacy is marked by numerous successful students and horses that have thrived under his expert guidance."
+        },
+        {
+            "id": 3,
+            "name": "Sune Damgaard Jensen",
+            "role": "Instructor, dressage (rider)",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/Sune-Damgaard-berider-Vestbirk-efterskole-ridelinje-220x220.jpg",
+            "description": "Sune Damgaard Jensen is a distinguished Underviser in dressage, renowned for his expertise as a berider. Sune's exceptional skills in training and his deep understanding of dressage techniques make him an invaluable asset to our team.",
+            "personality": "Sune is characterized by his dedication, precision, and approachable nature. He is a patient and insightful instructor who takes great pride in fostering a positive learning environment. Sune's ability to connect with both horses and riders on a personal level ensures that each training session is productive and enjoyable, promoting mutual growth and respect.",
+            "history": "Sune's passion for dressage began early in his life, leading him to pursue extensive training and certification as a berider. Over the years, he has honed his skills through a combination of hands-on experience and competitive success. Sune has trained under some of the most respected names in the field, further enhancing his techniques and methodologies. Since joining our team, he has been instrumental in guiding numerous horses and riders to achieve excellence in dressage, earning widespread admiration and respect within the community."
+        },
+        {
+            "id": 4,
+            "name": "Philip Mailby",
+            "role": "Underviser, dressur (berider)",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/PhilipMejlby_rideefterskole-550x550.jpg",
+            "description": "Philip Mailby is a distinguished Underviser in dressage, renowned for his expertise as a berider. Sune's exceptional skills in training and his deep understanding of dressage techniques make him an invaluable asset to our team.",
+            "personality": "Sune is characterized by his dedication, precision, and approachable nature. He is a patient and insightful instructor who takes great pride in fostering a positive learning environment. Sune's ability to connect with both horses and riders on a personal level ensures that each training session is productive and enjoyable, promoting mutual growth and respect.",
+            "history": "Sune's passion for dressage began early in his life, leading him to pursue extensive training and certification as a berider. Over the years, he has honed his skills through a combination of hands-on experience and competitive success. Sune has trained under some of the most respected names in the field, further enhancing his techniques and methodologies. Since joining our team, he has been instrumental in guiding numerous horses and riders to achieve excellence in dressage, earning widespread admiration and respect within the community."
+        },
+        {
+            "id": 5,
+            "name": "Erling Naamann",
+            "role": "Stable staff",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/Erling_ridefterskole-150x150.jpg",
+            "description": "Erling Naamann is a distinguished Underviser in dressage, renowned for his expertise as a berider. Sune's exceptional skills in training and his deep understanding of dressage techniques make him an invaluable asset to our team.",
+            "personality": "Sune is characterized by his dedication, precision, and approachable nature. He is a patient and insightful instructor who takes great pride in fostering a positive learning environment. Sune's ability to connect with both horses and riders on a personal level ensures that each training session is productive and enjoyable, promoting mutual growth and respect.",
+            "history": "Sune's passion for dressage began early in his life, leading him to pursue extensive training and certification as a berider. Over the years, he has honed his skills through a combination of hands-on experience and competitive success. Sune has trained under some of the most respected names in the field, further enhancing his techniques and methodologies. Since joining our team, he has been instrumental in guiding numerous horses and riders to achieve excellence in dressage, earning widespread admiration and respect within the community."
+        },
+        {
+            "id": 6,
+            "name": "Jeanette Egebjrg",
+            "role": "Stable staff",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/Jeanette_rideefterskole-150x150.jpg",
+            "description": "Jeanette Egebjrg, our esteemed Stable staff, is the cornerstone of our team. With her keen leadership skills and unwavering dedication, she ensures the smooth functioning of our department, driving us towards excellence with her strategic vision and meticulous attention to detail.",
+            "personality": "Annie is a dynamic and empathetic leader, known for her ability to inspire and motivate those around her. She leads by example, fostering a collaborative and supportive environment where everyone feels valued and empowered. Annie's warm demeanor and approachable nature make her a trusted confidante and mentor to her colleagues, always ready to lend an ear or offer guidance with a genuine smile.",
+            "history": "Annie's journey with our company began several years ago when she joined as a Junior Associate. Through her dedication and hard work, she quickly rose through the ranks, earning recognition for her exceptional leadership qualities and innovative problem-solving skills. Today, as our Stable staff, Annie continues to surpass expectations, guiding our team towards success with her unwavering commitment to excellence and passion for driving positive change."
+        },
+        {
+            "id": 7,
+            "name": "Solveig Bruun Folkmann",
+            "role": "Stable staff",
+            "image": "https://vsrc.dk/wp-content/uploads/2020/05/Solveig_beskåret-150x150.jpg",
+            "description": "Solveig Bruun Folkmann, our esteemed Stable staff, is the cornerstone of our team. With her keen leadership skills and unwavering dedication, she ensures the smooth functioning of our department, driving us towards excellence with her strategic vision and meticulous attention to detail.",
+            "personality": "Annie is a dynamic and empathetic leader, known for her ability to inspire and motivate those around her. She leads by example, fostering a collaborative and supportive environment where everyone feels valued and empowered. Annie's warm demeanor and approachable nature make her a trusted confidante and mentor to her colleagues, always ready to lend an ear or offer guidance with a genuine smile.",
+            "history": "Annie's journey with our company began several years ago when she joined as a Junior Associate. Through her dedication and hard work, she quickly rose through the ranks, earning recognition for her exceptional leadership qualities and innovative problem-solving skills. Today, as our Stable staff, Annie continues to surpass expectations, guiding our team towards success with her unwavering commitment to excellence and passion for driving positive change."
+        },
+        {
+            "id": 8,
+            "name": "Lara Jenkins",
+            "role": "Horse Trainer",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX2YiBvhVWFq2CoOjbMFB1fDFeAY0tfsV9ZQ&s",
+            "description": "Lara Jenkins is a highly skilled horse trainer with a focus on natural horsemanship. Her innovative methods and compassionate approach have made her a key figure in the equestrian community.",
+            "personality": "Lara is known for her patience, empathy, and keen observation skills. She excels at understanding and addressing the unique needs of each horse, fostering trust and cooperation.",
+            "history": "Lara's journey in the equestrian world began at a young age, influenced by her family's long history with horses. She has trained under renowned horsemen and has spent years refining her techniques through both practice and competition. Lara's commitment to ethical training methods has garnered her respect and admiration from peers and clients alike."
+        },
+        {
+            "id": 9,
+            "name": "Carlos Ramirez",
+            "role": "Equine Veterinarian",
+            "image": "https://i.scdn.co/image/ab6761610000e5eba262ac48a8714bff8591ab9d",
+            "description": "Carlos Ramirez is a dedicated equine veterinarian with extensive experience in horse health and wellness. His comprehensive knowledge and practical skills ensure the best care for our horses.",
+            "personality": "Carlos is compassionate, meticulous, and approachable. His calm demeanor and thorough approach to veterinary care make him a trusted figure among horse owners and riders.",
+            "history": "Carlos's passion for veterinary science led him to specialize in equine medicine. He has worked with some of the top equestrian centers and has a track record of successfully treating a wide range of equine health issues. Carlos's expertise is bolstered by ongoing education and a deep commitment to the well-being of horses."
+        },
+        {
+            "id": 10,
+            "name": "Anna Kowalski",
+            "role": "Equestrian Coach",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMED4It5HqGTzxuEWNJmP_ZZtt7kVrenX7rQ&s",
+            "description": "Anna Kowalski is an accomplished equestrian coach with a talent for developing both horse and rider skills. Her strategic coaching methods and positive reinforcement techniques lead to outstanding results.",
+            "personality": "Anna is enthusiastic, supportive, and highly motivational. She thrives on helping riders achieve their goals and enjoys creating a fun and challenging training environment.",
+            "history": "Anna's expertise in equestrian sports spans over two decades. She began her career as a competitive rider before transitioning to coaching. Her experience in various disciplines and her success as a rider provide her with a unique perspective that she imparts to her students. Anna's dedication to continuous learning keeps her methods current and effective."
+        },
+        {
+            "id": 11,
+            "name": "Jake Patterson",
+            "role": "Stable Manager",
+            "image": "https://media.licdn.com/dms/image/C5603AQHQoo-PBXnHoA/profile-displayphoto-shrink_200_200/0/1658329852216?e=2147483647&v=beta&t=a5KOG6W070vRtRjxM-3Iu4aNspWD2YNUj3q5JyLPjnY",
+            "description": "Jake Patterson is an experienced stable manager known for his exceptional organizational skills and dedication to horse welfare. His leadership ensures smooth operations and top-notch care for the horses.",
+            "personality": "Jake is reliable, detail-oriented, and has a strong work ethic. His friendly and approachable manner makes him well-liked by both staff and clients, fostering a collaborative and positive atmosphere.",
+            "history": "Jake's career in stable management began with his love for horses and a background in agricultural studies. Over the years, he has managed several prominent stables, gaining a reputation for excellence in horse care and facility management. Jake's proactive approach and problem-solving skills have been instrumental in maintaining high standards and a harmonious stable environment."
+        },
+        {
+            "id": 12,
+            "name": "Emily Thompson",
+            "role": "Riding Instructor",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQsrKJDMNDdv2kysK3T-48_sNCJNzTbjXiKg&s",
+            "description": "Emily Thompson is a highly qualified riding instructor with a passion for teaching riders of all levels. Her expertise in various riding styles and her ability to tailor lessons to individual needs make her a valuable asset.",
+            "personality": "Emily is enthusiastic, patient, and encouraging. She excels in building riders' confidence and skills, ensuring a supportive and effective learning environment.",
+            "history": "Emily's riding career started in her early childhood, leading her to compete successfully in multiple disciplines. She pursued formal education in equestrian studies and has been teaching for over a decade. Her dedication to continuous improvement and her warm teaching style have helped numerous riders achieve their goals."
+        },
+        {
+            "id": 13,
+            "name": "Marcus Wright",
+            "role": "Farrier",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTstYWG4d9z1WdvVaSd3Q2cpEZ89FplXWyGJA&s",
+            "description": "Marcus Wright is an expert farrier with extensive experience in hoof care and horseshoeing. His precise work and deep understanding of equine anatomy ensure the health and performance of our horses.",
+            "personality": "Marcus is meticulous, reliable, and has a great rapport with both horses and their owners. His calm and professional demeanor helps in handling even the most challenging situations with ease.",
+            "history": "Marcus developed his interest in farriery through his family's equestrian background. After completing his apprenticeship under a master farrier, he established his practice and has been providing top-quality hoof care for over 15 years. His commitment to the craft and continuous education keeps him at the forefront of the industry."
+        },
+        {
+            "id": 14,
+            "name": "Nguyen Martinez",
+            "role": "Equine Massage Therapist",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXTAIMAGdau_M0SzC_YeqmMSdKtr8tqMQHsg&s",
+            "description": "Nguyen Martinez is a certified equine massage therapist known for her therapeutic touch and comprehensive knowledge of horse anatomy. Her treatments help in enhancing performance and relieving stress in horses.",
+            "personality": "Nguyen Martinez is gentle, intuitive, and attentive. Her ability to connect with horses on a physical and emotional level makes her treatments highly effective and appreciated by both horses and their owners.",
+            "history": "Nguyen's journey into equine massage therapy began with her love for horses and a background in human massage therapy. She underwent specialized training in equine bodywork and has been practicing for over a decade. Her holistic approach and dedication to horse wellness have earned her a loyal client base and widespread recognition in the field."
+        },
+        {
+            "id": 15,
+            "name": "David Martinez",
+            "role": "Equestrian Event Coordinator",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTV-DGg_yJE-vMtBbe5cX1jDbEDPM3iF53ch9h1E25dm52yY3sN-gVZs3acZY61a7r2GE&usqp=CAU",
+            "description": "David Martinez is an accomplished equestrian event coordinator known for his organizational skills and attention to detail. He ensures that every event runs smoothly, providing a seamless experience for participants and spectators.",
+            "personality": "David is organized, proactive, and has a knack for problem-solving. His friendly and approachable nature makes him a pleasure to work with, fostering positive relationships with clients and colleagues.",
+            "history": "David's career in event coordination started in the broader events industry before he specialized in equestrian events. With over a decade of experience, he has coordinated numerous successful shows and competitions. His ability to anticipate and address the unique challenges of equestrian events has made him a sought-after professional in the field."
+        }
+    ],
+    "horses": [
+        { 
+            "id": 1,
+            "name": "Blaze",
+            "description": "Blaze is a majestic horse known for its speed and agility.",
+            "image": "https://diag4zoo.fr/wp-content/uploads/2024/02/240_F_326500445_ZD1zFSz2cMT1qOOjDy7C5xCD4shawQfM.jpg"
+        },
+        { 
+            "id": 2,
+            "name": "Midnight",
+            "description": "Midnight is a gentle horse with a calm demeanor.",
+            "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/160B4/production/_103229209_horsea.png"
+        },
+        { 
+            "id": 3,
+            "name": "Starlight",
+            "description": "Starlight is a spirited horse with a love for adventure.",
+            "image": "https://i.pinimg.com/736x/d2/d9/31/d2d931c8bd297a9324e84051c4b9f6be.jpg"
+        },
+        { 
+            "id": 4,
+            "name": "Whisper",
+            "description": "Whisper is a loyal companion, always ready to explore.",
+            "image": "https://www.morningagclips.com/wp-content/uploads/2024/04/ac-hpa-pr-1024x569.jpg"
+        },
+        { 
+            "id": 5,
+            "name": "Spirit",
+            "description": "Spirit is a graceful horse with a kind heart.",
+            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1PtKh7LxHr-Nq4rIoN7miN72xnRCJxI9yX67F8IJH1CEMpfxB"
+        },
+        { 
+            "id": 6,
+            "name": "Daisy",
+            "description": "Daisy is a playful horse who enjoys spending time outdoors.",
+            "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQofn_QfOau1Erc49X_SeJ7ASQz5ptZGekB0fp6wa71r3PgsveM"
+        }
+    ]
+}

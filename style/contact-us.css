@@ -1,6 +1,17 @@
 :root {
     --body-bg-color: #eee;
     --font-color: #232558;
+    --input-form-bg-color:#fff;
+    --input-form-color:#111;
+    --input-outline-color:#131584;
+    --contact-us-right-btn-hover:#191a4f;
+}
+    
+.dark-mode {
+    --input-form-bg-color:#111;
+    --input-form-color:#fff;
+    --input-outline-color:#9b9917;
+    --contact-us-right-btn-hover: #5f5e1d;
 }
 
 /* Used more than 1 time */
@@ -19,6 +30,15 @@ p {
     display: flex;
     justify-content: center;
     padding: 160px 100px;
+}
+.contact-us input, .contact-us select, .contact-us textarea {
+    background: var(--input-form-bg-color);
+    color: var(--input-form-color);
+    outline: 0;
+}
+
+.contact-us input:focus, .contact-us select:focus, .contact-us textarea:focus {
+    outline: 1px solid var(--input-outline-color);
 }
 
 .contact-us-left {
@@ -84,6 +104,11 @@ p {
     height: 24px;
 }
 
+.error-message {
+    display: none;
+    color: red;
+}
+
 .contact-us-right-field select {
     border: 0;
     height: 28px;
@@ -105,7 +130,7 @@ p {
 }
 
 .contact-us-right-btn:hover {
-    background-color: #191a4f;
+    background-color: var(--contact-us-right-btn-hover);
 }
 
 @media only screen and (max-width: 1000px) {

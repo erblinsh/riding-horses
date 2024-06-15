@@ -24,9 +24,7 @@ h1 {
     font-size: 53px;
 }
 
-p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+p { font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
 .see-more-btn {
     padding: 15px 25px;
@@ -69,12 +67,9 @@ p {
     color: #777;
     line-height: 1.4;
     font-size: 18px;
-    /* flex: 0.5; */
 }
 
-.home-header-left p:last-child {
-    margin: 0;
-}
+.home-header-left p:last-child { margin: 0; }
 
 .home-header-right img {
     width: 650px;
@@ -144,9 +139,7 @@ p {
 
 /* Benefits */
 
-.benefits {
-    padding: 250px 200px;
-}
+.benefits { padding: 250px 200px; }
 
 .benefits-description {
     width: 470px;
@@ -230,10 +223,7 @@ p {
 
 /* Take Your Horse */
 
-.rent-horse-to-us {
-    /* background: linear-gradient(135deg, #cd4546 0%,#343366 100%); */
-    background: var(--rent-horse-to-us-bg-color);
-}
+.rent-horse-to-us { background: var(--rent-horse-to-us-bg-color); }
 
 .take-your-horse {
     display: flex;
@@ -243,13 +233,9 @@ p {
     padding: 90px 80px 30px 80px;
 }
 
-.take-your-horse-left {
-    width: 420px;
-}
+.take-your-horse-left { width: 420px; }
 
-.take-your-horse-left p {
-    font-size: 19px;
-}
+.take-your-horse-left p { font-size: 19px; }
 
 .take-your-horse-left p:nth-child(3) {
     margin-top: 0;
@@ -265,9 +251,7 @@ p {
     opacity: 0.9;
 }
 
-.take-your-horse-left a:hover {
-    opacity: 1;
-}
+.take-your-horse-left a:hover { opacity: 1; }
 
 .take-your-horse-right img {
     width: 620px;
@@ -295,9 +279,7 @@ p {
     height: 120px; 
 }
 
-.custom-shape-divider-bottom-1717016746 .shape-fill {
-    fill: var(--body-bg-color);
-}
+.custom-shape-divider-bottom-1717016746 .shape-fill { fill: var(--body-bg-color); }
 
 /* Events And Stop Left */
 
@@ -333,9 +315,7 @@ p {
     margin-right: 30px;
 }
 
-.events-and-stop-links .see-more-btn{
-    margin-right: 30px;
-}
+.events-and-stop-links .see-more-btn { margin-right: 30px; }
 
 .events-and-stop-links a:hover {
     opacity: 0.8;
@@ -344,18 +324,14 @@ p {
 
 /* Teachers */
 
-.teachers {
-    padding: 0 200px;
-}
+.teachers { padding: 0 200px; }
 
 .teachers h1 {
     margin: 0;
     font-size: 48px;
 }
 
-.teachers p {
-    color: #777;
-}
+.teachers p { color: #777; }
 
 .teachers-cards {
     display: flex;
@@ -384,18 +360,14 @@ p {
     grid-template-columns: 1fr 1fr;
 }
 
-.facility {
-    width: 535px;
-}
+.facility { width: 535px; }
 
 .facility h3 {
     font-size: 21px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.facility p {
-    color: #777
-}
+.facility p { color: #777 }
 
 .facilities-footer {
     display: flex;
@@ -454,13 +426,9 @@ p {
         margin-top: -350px !important;
     }
 
-    .benefits {
-        padding: 250px 100px;
-    }
+    .benefits { padding: 250px 100px; }
 
-    .benefits-cards .card {
-        width: 320px;
-    }
+    .benefits-cards .card { width: 320px; }
 
     .take-your-horse {
         height: 450px;
@@ -468,30 +436,20 @@ p {
         padding-right: 50px;
     }
 
-    .take-your-horse-left h1 {
-        font-size: 43px;
-    }
+    .take-your-horse-left h1 { font-size: 43px; }
 
-    .take-your-horse-left p {
-        font-size: 18px;
-    }
+    .take-your-horse-left p { font-size: 18px; }
 
-    .take-your-horse-right img {
-        width: 500px;
-    }
+    .take-your-horse-right img { width: 500px; }
 
     .events-and-stop {
         padding-left: 90px;
         padding-right: 90px;
     }
 
-    .events-and-stop-left img{
-        width: 450px;
-    }
+    .events-and-stop-left img { width: 450px; }
 
-    .facilities {
-        padding: 50px 80px;
-    }
+    .facilities { padding: 50px 80px; }
     
     .facility {
         width: 330px;
@@ -527,26 +485,16 @@ p {
         padding-right: 30px;
     }
 
-    .part-of-vmse-left {
-        margin-top: -100px;
-    }
+    .part-of-vmse-left { margin-top: -100px; }
     
 
-    .part-of-vmse-left-img {
-        width: 325px !important;
-    }
+    .part-of-vmse-left-img { width: 325px !important; }
 
-    .part-of-vmse-right h1{
-        font-size: 48px !important;
-    }
+    .part-of-vmse-right h1{ font-size: 48px !important; }
 
-    .part-of-vmse-right p {
-        margin-bottom: 0;
-    }
+    .part-of-vmse-right p { margin-bottom: 0; }
 
-    .benefits {
-        padding: 250px 50px;
-    }
+    .benefits { padding: 250px 50px; }
 
     .benefits-cards .card {
         width: 250px;
@@ -565,35 +513,25 @@ p {
         padding-right: 40px;
     }
 
-    .take-your-horse-left h1 {
-        font-size: 40px;
-    }
+    .take-your-horse-left h1 { font-size: 40px; }
 
-    .take-your-horse-right img {
-        width: 327px;
-    }
+    .take-your-horse-right img { width: 327px; }
 
     .events-and-stop {
         padding-left: 70px;
         padding-right: 70px;
     }
     
-    .events-and-stop-left img{
-        width: 300px;
-    }
+    .events-and-stop-left img{ width: 300px; }
     
-    .events-and-stop-right h1 {
-        font-size: 45px;
-    }
+    .events-and-stop-right h1 { font-size: 45px; }
     
     .events-and-stop-links a {
         padding: 12px 22px;
         margin: 0 10px;
     }
 
-    .teachers {
-        padding: 0 150px;
-    }
+    .teachers { padding: 0 150px; }
 }
 
 @media only screen and (max-width: 768px) {
@@ -606,22 +544,10 @@ p {
         margin-top: 135px;
     }
 
-    .home-header-left {
-        min-width: 250px;
-    }
-
-    .home-header-left h1 {
-        font-size: 52px;
-    }
-
-    .home-header-left {
-        width: 100%;
-    }
-
-    .home-header-right img {
-        display: none;
-    }
-    
+    .home-header-left { min-width: 250px; }
+    .home-header-left h1 { font-size: 52px; }
+    .home-header-left { width: 100%; }
+    .home-header-right img { display: none; }
 
     /* Part Of Vmse */
     .part-of-vmse {
@@ -646,9 +572,7 @@ p {
         padding: 35px 0px 0 0;
     }
 
-    .benefits {
-        padding: 50px 0;
-    }
+    .benefits { padding: 50px 0; }
 
     .benefits-cards {
         grid-template-columns: 1fr;
@@ -677,13 +601,8 @@ p {
         padding: 60px 15px;
     }
 
-    .take-your-horse-left {
-        width: 100%;
-    }
-
-    .take-your-horse-left h1{
-        font-size: 53px;
-    }
+    .take-your-horse-left { width: 100%; }
+    .take-your-horse-left h1{ font-size: 53px; }
 
     .take-your-horse-right img{
         margin: 50px 0 0 0;
@@ -704,22 +623,16 @@ p {
         width: 90%;
         margin-top: 35px;
     }
-    .events-and-stop-right h1 {
-        font-size: 52px;
-    }
+    .events-and-stop-right h1 { font-size: 52px; }
     
-    .events-and-stop-links {
-        justify-content: center;
-    }
+    .events-and-stop-links { justify-content: center; }
 
     .events-and-stop-links a {
         padding: 15px 25px;
         margin: 0 10px;
     }
 
-    .teachers {
-        padding: 0 10px;
-    }
+    .teachers { padding: 0 10px; }
 
     .teachers-card {
         padding: 0;
@@ -731,20 +644,14 @@ p {
         height: 90px;
     }
 
-    .facilities {
-        padding: 50px 30px 0 10px;
-    }
+    .facilities { padding: 50px 30px 0 10px; }
 
-    .facility-title h1 {
-        margin-bottom: 18px;
-    }
+    .facility-title h1 { margin-bottom: 18px; }
     
     .facilities-cards {
         display: grid;
         grid-template-columns: 1fr;
     }
     
-    .facility {
-        width: 100%;
-    }
+    .facility { width: 100%; }
 }

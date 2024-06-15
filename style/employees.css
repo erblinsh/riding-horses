@@ -58,6 +58,30 @@ p {
     border-radius: 50%
 }
 
+.load-more {
+    width: 100%;
+    grid-column: 1 / -1;
+    padding: 20px 0;
+    position: relative;
+}
+
+.load-more-btn {
+    background-color: var(--btn-bg-color);
+    color: #f1f1f1;
+    border: 0;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.load-more-btn:hover {
+    opacity: 0.85;
+    transition: all ease 0.15s;
+}
 
 .do-you-need-help {
     display: flex;

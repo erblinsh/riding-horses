@@ -26,9 +26,7 @@ p {
     padding: 50px 200px;
 }
 
-.stalling-header {
-    text-align: center;
-}
+.stalling-header { text-align: center; }
 
 .the-best-surroundings {
     display: flex;

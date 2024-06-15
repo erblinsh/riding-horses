@@ -59,7 +59,8 @@ export class Footer {
         ]);
 
         const subscribeForm = createElement('form', { className: 'footer-item-search', id: 'subscribe-form' }, [
-            createElement('input', { type: 'email', id: 'subscribe-email', name: 'email', placeholder: 'Enter email...', required: true }),
+            createElement('input', { type: 'email', id: 'subscribe-email', name: 'email', placeholder: 'Enter email...', 
+                                    required: true }),
             createElement('h3', {}, 'GO')
         ]);
         

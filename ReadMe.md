@@ -6,7 +6,8 @@
 ## Ndryshimet ndaj webfaqes që jam bazuar në të janë
 
 #### - kam shtuar dark mode
-#### - pagination (eshte funksionale)
+#### - pagination tek rent horse (eshte funksionale)
+#### - load more tek employee (eshte funksionale)
 #### - show messages (njoftimi i perdoruesve)
 #### - si dhe permbushja e te gjitha kerkesave te assignment 3
 
